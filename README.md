@@ -75,6 +75,5 @@ Contributions are welcome! Please fork this repository and submit a pull request
 #License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-#Octanet Internship
+Octanet Internship
 This project is part of the Octanet internship for the Python development role. The purpose of this task is to demonstrate the ability to implement basic functionalities of an ATM machine using Python, ensuring the code is well-documented and user-friendly.
-
