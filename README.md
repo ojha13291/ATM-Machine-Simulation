@@ -1,43 +1,28 @@
 # ATM Machine Simulation
 
-This repository contains a Python program that simulates the basic functions of an ATM machine. The functionalities include account balance inquiry, cash withdrawal, cash deposit, PIN change, and transaction history.
+This repository contains a Python program that simulates basic ATM machine functionalities such as balance inquiry, cash withdrawal, cash deposit, PIN change, and transaction history.
+
+---
 
 ## Features
 
-- **Account Balance Inquiry**: Check the current balance of the account.
-- **Cash Withdrawal**: Withdraw a specified amount of money from the account.
-- **Cash Deposit**: Deposit a specified amount of money into the account.
-- **PIN Change**: Change the PIN of the account.
-- **Transaction History**: View the history of all transactions performed.
+```markdown
+- **Balance Inquiry**: Check the current account balance.
+- **Cash Deposit**: Deposit money into the account.
+- **Cash Withdrawal**: Withdraw money from the account (if balance permits).
+- **PIN Change**: Update the account PIN securely.
+- **Transaction History**: View a detailed history of all transactions.
 
-## Installation
-
-1. **Clone the repository**:
+1. Clone the repository:
     ```sh
-    git clone https://github.com/ojha13291/ATM-Machine-Simulation.git
+    git clone https://github.com/yourusername/ATM-Machine-Simulation.git
     cd ATM-Machine-Simulation
     ```
+2. Ensure Python 3.6+ is installed. Download it from [python.org](https://www.python.org/).
 
-2. **Ensure you have Python installed** (Python 3.6+ recommended). You can download it from [python.org](https://www.python.org/).
-
-## Usage
-
-To run the ATM simulation, simply execute the `main.py` file:
-
+Run the program using:
 ```sh
 python main.py
-```
-
-
-##Example Interaction
-
-1. **Start the ATM Simulation**:
-
-```sh
-python main.py
-```
-
-2.ATM Menu:
 
 --- ATM Menu ---
 1: Balance Inquiry
@@ -47,33 +32,26 @@ python main.py
 5: Transaction History
 6: Exit
 
+---
 
+## Code Overview
 
-3.**Choose an option by entering the corresponding number**.
+### ATM Class
 
+```markdown
+The `ATM` class manages all ATM functionalities:
 
-#Code Overview
+- **Initialization**: Initializes balance, PIN, and transaction history.
+- **Balance Inquiry**: Displays the current balance.
+- **Cash Deposit**: Adds a specified amount to the balance.
+- **Cash Withdrawal**: Deducts a specified amount from the balance (if sufficient).
+- **PIN Change**: Updates the PIN securely after validation.
+- **Transaction History**: Logs and displays all account activities.
 
-**ATM Class**
+The `main()` function serves as the entry point, presenting a menu for user interaction and invoking the appropriate methods of the `ATM` class.
 
-The ATM class handles all the functionalities of the ATM machine.
+Contributions are always welcome! Fork this repository and submit a pull request for any improvements or new features.
 
-1.**Initialization**: Sets the initial balance, PIN, and transaction history.
-2.**Balance Inquiry**: Displays the current account balance.
-3.**Cash Deposit**: Deposits a specified amount into the account.
-4.**Cash Withdrawal**: Withdraws a specified amount from the account if sufficient balance is available.
-5.**PIN Change**: Changes the PIN of the account if the old PIN is correct.
-6.**Transaction History**: Displays the transaction history.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-**Main Function**
-The main() function provides a menu for the user to interact with the ATM and calls the appropriate methods based on the user's choice.
-
-
-#Contribution
-Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
-
-#License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Octanet Internship
-This project is part of the Octanet internship for the Python development role. The purpose of this task is to demonstrate the ability to implement basic functionalities of an ATM machine using Python, ensuring the code is well-documented and user-friendly.
+This project was developed as part of the **Octanet Internship** program under the Python development role. It demonstrates the implementation of basic ATM functionalities using Python while focusing on user-friendliness and clear documentation.
