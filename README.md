@@ -37,7 +37,7 @@ python main.py
 python main.py
 ```
 
-2.**ATM Menu**:
+2.ATM Menu:
 
 --- ATM Menu ---
 1: Balance Inquiry
@@ -46,13 +46,13 @@ python main.py
 4: Change PIN
 5: Transaction History
 6: Exit
-----------------
+
 
 
 3.**Choose an option by entering the corresponding number**.
 
 
-##Code Overview
+#Code Overview
 
 **ATM Class**
 
@@ -69,12 +69,12 @@ The ATM class handles all the functionalities of the ATM machine.
 The main() function provides a menu for the user to interact with the ATM and calls the appropriate methods based on the user's choice.
 
 
-##Contribution
+#Contribution
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
 
-##License
+#License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Octanet Internship
+#Octanet Internship
 This project is part of the Octanet internship for the Python development role. The purpose of this task is to demonstrate the ability to implement basic functionalities of an ATM machine using Python, ensuring the code is well-documented and user-friendly.
 
